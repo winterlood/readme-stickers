@@ -1,7 +1,7 @@
 
 export const sticker = (res,type)=> {
     res.setHeader("Content-Type", "image/svg+xml");
-    var sticker = `svg?type=${type}`
+    var sticker = `https://readme-stickers.vercel.app/api/svg?type=${type}`
 
     res.send(`
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200" role="img" 
@@ -12,7 +12,7 @@ aria-label="license: Apache">
 }
 
 export const korean_developer = (res,name)=>{
-    var flag = `svg?type=round_ko`
+    var flag = `https://readme-stickers.vercel.app/api/svg?type=round_ko`
     var name = name;
 
     res.setHeader("Content-Type", "image/svg+xml");
