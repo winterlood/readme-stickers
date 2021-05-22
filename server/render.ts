@@ -1,6 +1,5 @@
-import { api_types } from "@global_types";
 
-export const sticker = (res,type:api_types.stickerType)=> {
+export const sticker = (res,type)=> {
     res.setHeader("Content-Type", "image/svg+xml");
     res.render('sticker',{sticker:`svg?type=${type}`})
 }

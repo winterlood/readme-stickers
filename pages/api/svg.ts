@@ -1,4 +1,3 @@
-import { api_types } from "@global_types";
 import fs from "fs";
 import path from "path";
 
