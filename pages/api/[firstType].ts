@@ -1,4 +1,5 @@
 import { api_types } from "@global_types";
+import { korean_developer, sticker } from "../../server/render";
 
 var express = require("express");
 const app = express();
@@ -11,9 +12,12 @@ app.get("/api*", (req, res) => {
     switch(firstType){
         case 'sticker':{
             const {type}:{type:api_types.stickerType} = req.query;
-            res.setHeader("Content-Type", "image/svg+xml");
-            res.render(firstType,{sticker:`svg?type=${type}`})
+            sticker(res,type);
             break;
+        }
+        case 'korean-developer':{
+            const {name}:api_types.koreanDeveloperType = req.query;
+            korean_developer(res,name);
         }
         case'pin':{
             break;
