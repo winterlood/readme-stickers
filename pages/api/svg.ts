@@ -3,7 +3,8 @@ import path from "path";
 
 var express = require("express");
 const app = express();
-
+var cors = require('cors');
+app.use(cors());
 
 app.get("/api/svg", (req, res) => {
     const {type} = req.query;
