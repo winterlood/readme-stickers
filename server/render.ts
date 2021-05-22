@@ -1,7 +1,10 @@
 
+import round_ko from '../public/svg/round_ko'
+
 export const sticker = (res,type)=> {
     res.setHeader("Content-Type", "image/svg+xml");
     var sticker = `https://readme-stickers.vercel.app/api/svg?type=${type}`
+    
 
     res.send(`
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200" role="img" 
@@ -11,9 +14,15 @@ aria-label="license: Apache">
     `)
 }
 
+
 export const korean_developer = (res,name)=>{
     var flag = `https://readme-stickers.vercel.app/api/svg?type=round_ko`
+    var flag2 = 'round_ko.svg';
     var name = name;
+
+    // var s = new XMLSerializer();
+    // var str = s.serializeToString(round_ko);
+
 
     res.setHeader("Content-Type", "image/svg+xml");
     res.send(
@@ -38,7 +47,9 @@ width="350"
 fill="#fffefe"
 stroke-opacity="1"
 />
-   <image href='${flag}'  x='10' y='5'  width="60" />
+<svg  x='10' y='5'  width="60" height="60">
+${round_ko}
+</svg>
        <text class="name" x='80' y='35'> ${name} </text>
        <text class="label" x='80' y='55'>DEVELOPER IN REPUBLIC OF KOREA</text>
 </svg>
@@ -46,3 +57,5 @@ stroke-opacity="1"
     )
 }
 
+
+// <image href='${flag}'  x='10' y='5'  width="60" />
