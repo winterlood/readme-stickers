@@ -23,6 +23,10 @@
     "**/*.ts",
     "**/*.tsx"
   ],
+  "typeRoots": [
+    "./node_modules/@types",
+    "./@types"
+  ], /* List of folders to include type definitions from. */
   "exclude": [
     "node_modules"
   ]
