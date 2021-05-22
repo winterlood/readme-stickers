@@ -1,0 +1,24 @@
+{
+  "name": "readme-stickers",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "vercel-deploy": "next build && next export"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "next": "10.2.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^15.3.1",
+    "@types/react": "^17.0.6",
+    "typescript": "^4.2.4"
+  }
+}
