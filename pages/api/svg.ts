@@ -5,7 +5,6 @@ var express = require("express");
 const app = express();
 
 
-
 app.get("/api/svg", (req, res) => {
     const {type} = req.query;
     res.setHeader("Content-Type", "image/svg+xml");
