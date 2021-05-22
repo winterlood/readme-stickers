@@ -4,7 +4,9 @@ import path from "path";
 var express = require("express");
 const app = express();
 app.set("view engine", "ejs");
-app.use(express.static(__dirname + "../../views"));
+app.use(express.static(__dirname + "../views"));
+app.set("views", __dirname + "../views");
+
 app.get("/api*", (req, res) => {
     const filePath = path.resolve(".", "public/svg/react_icon.svg");
     const svgBuffer = fs.readFileSync(filePath);

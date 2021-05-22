@@ -2,12 +2,15 @@ import { korean_developer, sticker } from "../../server/render";
 
 var express = require("express");
 const app = express();
-app.set("view engine", "ejs");
-app.use(express.static(__dirname + '../../views'));
+// app.set("view engine", "ejs");
+// app.use(express.static(__dirname + "../views"));
+// app.set("views", __dirname + "../views");
 
 app.get("/api*", (req, res) => {
-    const {firstType} = req.query;
+    res.setHeader("Content-Type", "image/svg+xml");
 
+    const {firstType} = req.query;
+ 
     switch(firstType){
         case 'sticker':{
             const {type} = req.query;
