@@ -8,9 +8,7 @@ const app = express();
 
 app.get("/api*", (req, res) => {
     res.setHeader("Content-Type", "image/svg+xml");
-
     const {firstType} = req.query;
- 
     switch(firstType){
         case 'sticker':{
             const {type} = req.query;
