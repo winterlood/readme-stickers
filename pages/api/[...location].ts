@@ -1,4 +1,3 @@
-import { GLOBAL_TYPE } from '@global_types';
 import {Request,Response} from 'express'
 
 // RENDER METHODS
