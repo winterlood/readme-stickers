@@ -11,6 +11,11 @@
 
 <p align="center">
   <b>한줄이면 됩니다. 당신의 이름, 닉네임, 저장소를 포함한 README STICKER를 붙여보세요!</b>
+  <p align="center">
+    <a href="https://readme-stickers.vercel.app/">DOCS</a>
+    ·
+    <a href="https://github.com/winterlood">개발자</a>
+  </p>
 </p>
   <br/>
   <br/>
