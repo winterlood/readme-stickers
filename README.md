@@ -11,13 +11,10 @@
 
 <p align="center">
     <p align="center">
-    <a href="https://codecov.io/gh/anuraghazra/github-readme-stats">
-      <img src="https://codecov.io/gh/winterlood/readme-stickers/branch/master/graph/badge.svg" />
-    </a>
-    <a href="https://github.com/anuraghazra/github-readme-stats/issues">
+    <a href="https://github.com/winterlood/readme-stickers/issues">
       <img alt="Issues" src="https://img.shields.io/github/issues/winterlood/readme-stickers?color=0088ff" />
     </a>
-    <a href="https://github.com/anuraghazra/github-readme-stats/pulls">
+    <a href="https://github.com/winterlood/readme-stickers/pulls">
       <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/winterlood/readme-stickers?color=0088ff" />
     </a>
     <br />
