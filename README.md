@@ -33,7 +33,7 @@
   <br/>
   
   
- ## KO DEVELOPER STICKER 😀 
+ # KO DEVELOPER STICKER 😀 
  
  KO DEVELOPER STICKER를 이용하여, 
  
@@ -52,7 +52,7 @@
   ![](https://readme-stickers.vercel.app/api/kodeveloper?name=%EC%9D%B4%EC%A0%95%ED%99%98&theme=dark)
  
 
-## KO REPOSITORY STICKER 😀
+# KO REPOSITORY STICKER 😀
 
 KO REPOSITORY STICKER를 이용하여
 
