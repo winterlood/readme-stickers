@@ -9,3 +9,56 @@
 </p>
 
 
+<p align="center">
+  <b>한줄이면 됩니다. 당신의 이름, 닉네임, 저장소를 포함한 README STICKER를 붙여보세요!</b>
+</p>
+  <br/>
+  <br/>
+  <br/>
+  
+  
+ ## KO DEVELOPER STICKER 😀 
+ 
+ KO DEVELOPER STICKER를 이용하여, 
+ 
+ 여러분의 github profile readme를 꾸며보세요
+ ### default
+  
+ ```
+ ![](https://readme-stickers.vercel.app/api/kodeveloper?name=%EC%9D%B4%EC%A0%95%ED%99%98)
+ ```
+ ![](https://readme-stickers.vercel.app/api/kodeveloper?name=%EC%9D%B4%EC%A0%95%ED%99%98)
+ 
+ ### dark
+  ```
+ ![](https://readme-stickers.vercel.app/api/kodeveloper?name=%EC%9D%B4%EC%A0%95%ED%99%98&theme=dark)
+ ```
+  ![](https://readme-stickers.vercel.app/api/kodeveloper?name=%EC%9D%B4%EC%A0%95%ED%99%98&theme=dark)
+ 
+
+## KO REPOSITORY STICKER 😀
+
+KO REPOSITORY STICKER를 이용하여
+
+여러분의 저장소가 한국의 자랑스러운 오픈소스임을 알리세요!
+
+### default
+```
+<p align="center">
+    <img src="https://readme-stickers.vercel.app/api/korepos/medium?owner=winterlood&repo=readme-stickers"/>
+</p>
+```
+<p align="center">
+    <img src="https://readme-stickers.vercel.app/api/korepos/medium?owner=winterlood&repo=readme-stickers"/>
+</p>
+
+### dark
+```
+<p align="center">
+    <img src="https://readme-stickers.vercel.app/api/korepos/medium?owner=winterlood&repo=readme-stickers&theme=dark"/>
+</p>
+```
+
+<p align="center">
+    <img src="https://readme-stickers.vercel.app/api/korepos/medium?owner=winterlood&repo=readme-stickers&theme=dark"/>
+</p>
