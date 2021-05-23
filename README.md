@@ -1,4 +1,7 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+<p align="center">
+  <img src="https://readme-stickers.vercel.app/api/korepos/medium?owner=winterlood&repo=readmestickers"/>
+</p>
 
 ## Getting Started
 
