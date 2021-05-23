@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://readme-stickers.vercel.app/api/korepos/medium?owner=winterlood&repo=readme-stickers$theme=dark"/>
+  <img src="https://readme-stickers.vercel.app/api/korepos/medium?owner=winterlood&repo=readme-stickers"/>
 </p>
 
 ## Getting Started
